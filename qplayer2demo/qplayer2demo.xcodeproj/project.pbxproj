@@ -85,6 +85,8 @@
 		BAD375082BD0CBB200C04D12 /* QNotificationCenterHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD375072BD0CBB200C04D12 /* QNotificationCenterHelper.m */; };
 		BAD4CFDE2AD642B900D7F9FC /* qplayer2demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4CFDD2AD642B900D7F9FC /* qplayer2demoUITests.m */; };
 		BAD4CFE02AD642B900D7F9FC /* qplayer2demoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAD4CFDF2AD642B900D7F9FC /* qplayer2demoUITestsLaunchTests.m */; };
+		CAD6F82A2C9D14450020FB8B /* qplayer2_core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1855D32A5C08BC009BD367 /* qplayer2_core.framework */; };
+		CAD6F82B2C9D14450020FB8B /* qplayer2_core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA1855D32A5C08BC009BD367 /* qplayer2_core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				BA3E5B042A8CB85F00032327 /* MikuDelivery.framework in Embed Frameworks */,
+				CAD6F82B2C9D14450020FB8B /* qplayer2_core.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +258,7 @@
 			files = (
 				50B1F3D5289BBF7A0074E02D /* Foundation.framework in Frameworks */,
 				BA3E5B032A8CB85F00032327 /* MikuDelivery.framework in Frameworks */,
+				CAD6F82A2C9D14450020FB8B /* qplayer2_core.framework in Frameworks */,
 				BA67ABB02A6FE23000BE06FA /* CoreAudio.framework in Frameworks */,
 				50387155292CA3410000C4DD /* CoreMotion.framework in Frameworks */,
 				616D0BA391829A738EA77F6B /* libPods-qplayer2demo.a in Frameworks */,
